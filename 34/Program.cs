@@ -8,7 +8,7 @@ Console.Clear();
 int[] array = GetRandomArray(4, 100, 1000);
 int evenCount = GetEvenCount(array);
 
-Console.WriteLine($"[{String.Join(", ", array)} -> {evenCount}]");
+Console.WriteLine($"[{String.Join(", ", array)}] -> {evenCount}");
 
 ///////////////////////////////////////////////////////////////////////
 int[] GetRandomArray(int size, int minValue, int maxValue) 
